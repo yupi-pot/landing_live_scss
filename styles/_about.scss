@@ -30,6 +30,7 @@
       }
 
       @media (max-width: v.$media_md) {
+        background: url("../assets/img/desktop_alpha.webp") 99% 100% / 450px no-repeat;
 
         &-title {
           @include m.font(35px, 400, v.$color_white);
@@ -39,17 +40,15 @@
           max-width: 500px;
           @include m.font(16px, 300, v.$color_white);
         }
-
-
-        background: url("../assets/img/desktop_alpha.webp") 99% 100% / 450px no-repeat;
       }
 
       @media (max-width: v.$media_sm) {
+
+        background: url("../assets/img/desktop_alpha.webp") 150px 100% / 400px no-repeat;
+
         &-desc {
           max-width: 320px;
         }
-
-        background: url("../assets/img/desktop_alpha.webp") 150px 100% / 400px no-repeat;
       }
     }
 
